@@ -21,9 +21,9 @@ app.use(express.json());
 app.use(helmet());
 
 // routes
-// app.get("/api/test", (req, res) => {
-//   res.json({ status: "OK", message: "Server is running" });
-// });
+app.get("/api/test", (req, res) => {
+  res.json({ status: "OK", message: "Server is running" });
+});
 app.use("/api/", interactionRouter);
 
 const port = process.env.PORT || 5000;

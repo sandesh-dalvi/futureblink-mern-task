@@ -110,6 +110,8 @@ export default function AIFlow() {
       //   console.log(response.data);
       setResultText(response.data.response);
     } catch (error) {
+      console.log(error);
+
       toast.error(
         error.response?.data?.message ||
           "An error occurred while fetching AI response."
