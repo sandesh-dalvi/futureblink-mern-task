@@ -195,7 +195,6 @@ export default function AIFlow() {
           onEdgesChange={onEdgesChange}
           onConnect={onConnect}
           nodeTypes={nodeTypes}
-          fitView
           className=" bg-gray-50"
         >
           <Controls />
