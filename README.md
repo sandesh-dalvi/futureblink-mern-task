@@ -9,7 +9,7 @@ A fullstack MERN application that visualises AI prompt-response intereactions us
 
 ## Video Demo
 
-- Youtube Link - ![AI Flow Visualizer](https://youtu.be/qHhl8y3zNwA)
+- Youtube Link - [AI Flow Visualizer](https://youtu.be/qHhl8y3zNwA)
 
 ## Features
 
